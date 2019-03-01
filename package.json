@@ -2,7 +2,7 @@
   "private": true,
   "name": "test-parcel",
   "version": "0.0.1",
-  "description": "",
+  "description": "parcel + electron + typescript",
   "main": "dist/main.js",
   "scripts": {
     "start": "npm-run-all build:* && electron .",

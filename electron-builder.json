@@ -1,6 +1,9 @@
 {
   "productName": "test-parcel",
   "appId": "com.uguisu-an.desktop",
+  "directories": {
+    "output": "release"
+  },
   "files": [
     "dist/**/*"
   ]
