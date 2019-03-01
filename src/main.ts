@@ -1,5 +1,5 @@
 import path from 'path';
-import { app, BrowserWindow } from 'electron';
+import { BrowserWindow, app } from 'electron';
 
 let win;
 
@@ -15,6 +15,8 @@ app.on('ready', () => {
 });
 
 app.on('window-all-closed', () => {
-  if (process.platform === 'darwin') { return; }
+  if (process.platform === 'darwin') {
+    return;
+  }
   app.quit();
 });
