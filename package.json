@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "test-percel",
+  "name": "test-parcel",
   "version": "0.0.1",
   "description": "",
   "main": "dist/main.js",
