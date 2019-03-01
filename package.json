@@ -5,7 +5,7 @@
   "description": "",
   "main": "dist/main.js",
   "scripts": {
-    "start": "electron .",
+    "start": "npm-run-all build:* && electron .",
     "build": "npm-run-all build:* && electron-builder",
     "build:app": "parcel build src/main.ts --target electron",
     "build:web": "parcel build public/index.html",
