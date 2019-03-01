@@ -1,3 +1,7 @@
+# Parcel
+.cache
+dist
+
 ### https://raw.github.com/github/gitignore/9e018473e80cf262d25841facbbd69e7f1a4ef41/Node.gitignore
 
 # Logs
@@ -70,5 +74,3 @@ typings/
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-
-

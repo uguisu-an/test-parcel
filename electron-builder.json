@@ -1,0 +1,7 @@
+{
+  "productName": "test-electron",
+  "appId": "com.uguisu-an.desktop",
+  "files": [
+    "dist/**/*"
+  ]
+}
