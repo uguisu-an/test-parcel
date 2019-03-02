@@ -8,8 +8,7 @@
     "start": "npm-run-all build:* && electron .",
     "build": "npm-run-all build:* && electron-builder",
     "build:app": "parcel build src/main.ts --target electron",
-    "build:web": "parcel build public/index.html",
-    "serve": "parcel public/index.html",
+    "build:web": "parcel build index.html --public-url ./",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -21,6 +20,7 @@
     "npm-run-all": "^4.1.5",
     "parcel": "^1.11.0",
     "prettier": "^1.16.4",
+    "sass": "^1.17.2",
     "typescript": "^3.3.3333"
   },
   "dependencies": {}
